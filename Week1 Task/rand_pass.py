@@ -16,7 +16,7 @@ parser.add_argument('--special',action='store_true',help='including special char
 args = parser.parse_args()
 
 # Define the possible characters based on the user choice 
-char = " "
+char = ""
 if args.uppercase:
     char = char + string.ascii_uppercase
 if args.lowercase:
