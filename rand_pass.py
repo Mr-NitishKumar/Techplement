@@ -20,7 +20,7 @@ char = ""
 if args.uppercase:
     char = char + string.ascii_uppercase
 if args.lowercase:
-    char = char + string.ascii_lowercase
+    char = char + string.ascii_lowercase 
 if args.digit:
     char = char + string.digits
 if args.special:
